@@ -12,5 +12,10 @@ Future updates:
 <li>
   add more advanced questions
 </li>
-<li> multiply question score by remaining time left for a more competitive scoring.
+<li> 
+  multiply question score by remaining time left for a more competitive scoring.
+</li>
+<li>
+  randomize question order
+</li>
 
