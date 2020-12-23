@@ -15,10 +15,13 @@ body {
 }
 
 
-h1 {
+/* h1 {
     text-align: center;
+} */
+#questionArea {
+  font-size: 30px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-
 
 button {
   margin: 3px;
@@ -49,6 +52,14 @@ background-color:#006e25;
 }
 #highscores {
   color: #006e25;
+}
+
+#gameover {
+  color: rgb(156, 45, 45);
+  text-align: center;
+  font-weight: bolder;
+  font-size: 60px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .modal {
