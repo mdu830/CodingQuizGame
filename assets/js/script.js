@@ -102,8 +102,7 @@ function setTime() {
 
     if(secondsLeft <= 0){
       clearInterval(timerInterval);
-      //questionDiv.style.display = "none";// ----clear off question and answers before "game over messege"
-      //questionDiv[childElements].style.display = "none";
+      quizArea.style.display = "none";
       gameOverShow()
       gameOver.textContent = "Time is up!  " + "  GAME OVER";
       checkHighscore()

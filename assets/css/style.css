@@ -8,28 +8,32 @@
 
 }
 
+
 h1 {
     text-align: center;
 }
 
+
 button {
   margin: 3px;
-display:inline-block;
-padding:0.3em 1.2em;
-margin:0 0.3em 0.3em 0;
-border-radius:2em;
-box-sizing: border-box;
-text-decoration:none;
-font-family:'Roboto',sans-serif;
-font-weight:300;
-color:#FFFFFF;
-background-color:#4eb5f1;
-text-align:center;
-transition: all 0.2s;
+  display: block;
+  padding:0.3em 1.2em;
+  margin:0 0.3em 0.3em 0;
+  border-radius:10px;
+  box-sizing: border-box;
+  text-decoration:none;
+  font-family:'Roboto',sans-serif;
+  font-weight:300;
+  color:#FFFFFF;
+  background-color:#1fa03b;
+  text-align:center;
+  transition: all 0.2s;
 }
 button:hover{
-background-color:#4095c6;
+background-color:#006e25;
 }
+
+
 /* Game Over Page */
 
 #userScore {
