@@ -3,7 +3,7 @@
 # CodingQuizGame
 
 
-This is a small Web coding quiz to test your knowledge on the basics of web developement.
+This is a small web coding quiz to test your knowledge on the basics of web developement.
 
 Future updates:
 <li>
