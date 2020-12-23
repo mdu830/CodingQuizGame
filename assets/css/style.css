@@ -41,6 +41,9 @@ background-color:#006e25;
   font-size: larger;
   font-style: bold;
 }
+#highscores {
+  color: #006e25;
+}
 
 .modal {
     display: none; /* Hidden by default */
@@ -70,6 +73,10 @@ background-color:#006e25;
     float: right;
     font-size: 28px;
     font-weight: bold;
+  }
+
+  #highscores:hover {
+    color: #1fa03b;
   }
   
   .close:hover,

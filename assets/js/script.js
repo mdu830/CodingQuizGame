@@ -137,13 +137,38 @@ var questionCache = [
   },
   {
     question: "A _______ is an application programming interface for either a web server or a web browser.",
-    choices: ["cat", "Web API", "k9", "giggity"],
+    choices: ["Web Browser", "Web API", "DOM", "Google Chrome"],
     answer: "Web API",
   },
   {
-    question: "what is a cat?",
-    choices: ["cat", "feline", "k9", "giggity"],
-    answer: "feline",
+    question: "________ provides hosting for software development and version control.",
+    choices: ["Github", "Gitlab", "Gitcode", "Giggity"],
+    answer: "Github",
+  },
+  {
+    question: "what it a DOM?",
+    choices: ["JavaScript", "Document Object Model", "Document Object Maker", "Webpage Document"],
+    answer: "Document Object Model",
+  },
+  {
+    question: "_______ is the process of cleaning up and simplifying code.",
+    choices: ["Code Refactoring", "Commenting", "Commiting", "Programming"],
+    answer: "Code Refactoring",
+  },
+  {
+    question: "What is one of the three basic programming languages of the web?",
+    choices: ["CSS", "JavaScript", "HTML", "All of the Above"],
+    answer: "All of the Above",
+  },
+  {
+    question: "A _______ is an application programming interface for either a web server or a web browser.",
+    choices: ["Web Browser", "Web API", "DOM", "Google Chrome"],
+    answer: "Web API",
+  },
+  {
+    question: "________ provides hosting for software development and version control.",
+    choices: ["Github", "Gitlab", "Gitcode", "Giggity"],
+    answer: "Github",
   },
   {
   
