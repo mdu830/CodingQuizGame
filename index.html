@@ -14,37 +14,51 @@
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-  <!-- highscores button and time indicator -->
-  <div id="timer" class="m-3">Time: 0</div>
-  <div id="highscores" type="button"  class="m-2 btn btn-link">View highscores</div>
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <div id="highscores" type="button"  class="m-2 btn btn-link">View highscores</div>
+      </div>
+      <div class="col">
 
+      </div>
+      <div class="col">
+        <div id="timer" class="m-3">Time: 0</div>
+      </div>
+    </div>
+  </div>
   <!-- Quiz Start page -->
   <div class="media-body">  
     <div id="page" class="container">
-    
       <div class="row">
-          <div class="col-1">
+          <div class="col">
           </div>
           <div class="col-9 mt-5 mb-4 pt-2 text-center">
             <h1>Coding Quiz Challenge</h1>
           </div>
-          <div class="col-3">
+          <div class="col">
           </div>
       </div>
       <div class="row">
-          <div class="col-1">
+          <div class="col">
             
           </div>
           <div class="col-10 pt-3 text-center">
             <h4>Try to answer all the questions correctly in 75 seconds. If you answer a question incorrectly you will loose 15 seconds</h4>
+          </div>
+          <div class="col">
+
           </div>
       </div>
       <div class="row">
           <div class="col-5">
 
           </div>
-          <div class="col-3 mt-4">
+          <div class="col mt-4">
             <button type="button" id="start" class="btn btn-success"></button>
+          </div>
+          <div class="col-sm">
+
           </div>
       </div>
     </div>                   
@@ -78,12 +92,12 @@
   <!-- Game Over Page -->
   <div id="page" class="container">
     <div class="row">
-        <div class="col-1">
+        <div class="col">
         </div>
-        <div class="col-9 mt-5 mb-4 pt-2 text-center">
+        <div class="col-10 mt-5 mb-4 pt-2">
           <h1 id="gameover"></h1>
         </div>
-        <div class="col-3">
+        <div class="col">
         </div>
     </div>
 
@@ -91,8 +105,11 @@
       <div class="col-5">
 
       </div>
-      <div class="col-3 mt-4">
+      <div class="col-4 mt-4">
         <button type="button" id="restart" class="btn btn-success" style="display: none;"></button>
+      </div>
+      <div class="col-sm">
+
       </div>
   </div>
 

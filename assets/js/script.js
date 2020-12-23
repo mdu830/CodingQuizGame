@@ -122,23 +122,23 @@ var questionCache = [
 
   {
     question: "what it a DOM?",
-    choices: ["A dominating woman", "Document Object Model", "etc", "etc"],
+    choices: ["JavaScript", "Document Object Model", "Document Object Maker", "Webpage Document"],
     answer: "Document Object Model",
   },
   {
-    question: "_______ is when you clean and simplify code.",
-    choices: ["code refactoring", "commenting", "commiting", "giggity"],
-    answer: "code refactoring",
+    question: "_______ is the process of cleaning up and simplifying code.",
+    choices: ["Code Refactoring", "Commenting", "Commiting", "Programming"],
+    answer: "Code Refactoring",
   },
   {
-    question: "what is a dog?",
-    choices: ["cat", "feline", "k9", "giggity"],
-    answer: "k9",
+    question: "What is one of the three basic programming languages of the web?",
+    choices: ["CSS", "JavaScript", "HTML", "All of the Above"],
+    answer: "All of the Above",
   },
   {
-    question: "what is a quagmire?",
-    choices: ["cat", "feline", "k9", "giggity"],
-    answer: "giggity",
+    question: "A _______ is an application programming interface for either a web server or a web browser.",
+    choices: ["cat", "Web API", "k9", "giggity"],
+    answer: "Web API",
   },
   {
     question: "what is a cat?",
