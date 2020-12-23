@@ -29,11 +29,11 @@ function checkHighscore(){
   
 }
 
-
+// subit name and score to highscore list
 var scoreSubmitBtn = document.querySelector("#scoreSubmit");
 var userScore = document.querySelector("#userScore");
 
-// apply submit name to highscores
+
 function renderCurrentHs(){
   var namesForm = JSON.parse(localStorage.getItem("#name"));
   
@@ -41,6 +41,7 @@ function renderCurrentHs(){
   
   for (var i = 0; i < namesForm.length; i++) {
     var namesForm;
+    
 
     var div = document.createElement("div");
     div.textContent = namesForm[i] 
@@ -183,7 +184,7 @@ var choicesDiv = document.getElementById("choicesArea");
 var indexNum = 0;
 var lockGame = false;
 
-// check user answers
+// Check the users answer
 function checkAnswer(){
 
   var answer = questionCache[indexNum].answer;
@@ -216,7 +217,7 @@ function checkAnswer(){
 
 }
 
-//questions and answers 
+//Present the question and multiple choice answers 
 function getQuestion(){
   questionDiv.innerHTML = questionCache[indexNum].question;
   var choicesArr = questionCache[indexNum].choices;
