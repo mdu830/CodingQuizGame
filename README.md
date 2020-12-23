@@ -10,7 +10,7 @@ Future updates:
   set highscores to display in descending order
 </li>
 <li>
-  added more advanced questions
+  add more advanced questions
 </li>
 <li> multiply question score by remaining time left for a more competitive scoring.
 
