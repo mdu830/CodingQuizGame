@@ -3,9 +3,9 @@
 # CodingQuizGame
 
 
-##This is a simple Web coding quiz to test your knowledge on the basics of web developement.
+This is a small Web coding quiz to test your knowledge on the basics of web developement.
 
-###Future updates:
+Future updates:
 <li>
   set highscores to display in descending order
 </li>
