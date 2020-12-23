@@ -17,8 +17,6 @@ function checkHighscore(){
   var closeHs = document.getElementsByClassName("close")[0];
   modal.style.display = "block";
 
-  
-
     closeHs.onclick = function() {
     modal.style.display = "none";
   }
