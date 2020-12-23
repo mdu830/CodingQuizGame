@@ -152,9 +152,9 @@ var questionCache = [
     answer: "12",
   },
   {
-    question: "A ___________ clearly describes its meaning to both the browser and the developer.",
-    choices: ["Div", "Element Class", "Semantic Element", "Element ID"],
-    answer: "Semantic Element",
+    question: "A ___________ Element clearly describes its meaning to both the browser and the developer.",
+    choices: ["Div", "Class", "Semantic", "ID"],
+    answer: "Semantic",
   },
   {
     question: "The ___________ method parses a JSON string, constructing the JavaScript value or object described by the string.",
