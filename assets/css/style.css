@@ -3,7 +3,7 @@
 body {
   background-color: aliceblue;
 }
-
+/* view HighScores and Timer  */
 #timer {
     float: right;
 
@@ -13,16 +13,12 @@ body {
     float: left;
 
 }
-
-
-/* h1 {
-    text-align: center;
-} */
+/* Question Area */
 #questionArea {
   font-size: 30px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-
+/* Question Buttons */
 button {
   margin: 3px;
   display: block;
@@ -62,6 +58,7 @@ background-color:#006e25;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+/* HighScores modal */
 .modal {
     opacity: 95%;
     display: none; /* Hidden by default */
@@ -85,7 +82,7 @@ background-color:#006e25;
     width: 80%; /* Could be more or less, depending on screen size */
   }
   
-  /* The Close Button */
+  /* The modal Close Button */
   .close {
     color: #aaa;
     float: right;
