@@ -59,6 +59,9 @@ background-color:#006e25;
 }
 
 /* HighScores modal */
+h1 {
+  text-align: center;
+}
 .modal {
     opacity: 95%;
     display: none; /* Hidden by default */
