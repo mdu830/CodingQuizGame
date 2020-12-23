@@ -147,7 +147,7 @@ var questionCache = [
     answer: "Github",
   },
   {
-    question: "How many numbers columns are in bootstraps grid system?",
+    question: "How many numbers of columns are in bootstraps grid system?",
     choices: ["24", "14", "16", "12"],
     answer: "12",
   },
